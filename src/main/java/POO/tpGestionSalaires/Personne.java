@@ -1,10 +1,11 @@
 package POO.tpGestionSalaires;
 
-public class Personne {
+public abstract class Personne {
 
 	private String name;
 	private String surname;
 	private int healthID;
+	private Adress adress;
 	
 	
 	public static void main(String[] args) {
@@ -18,11 +19,12 @@ public class Personne {
 	 * @param surname
 	 * @param healthID
 	 */
-	public Personne(String name, String surname, int healthID) {
+	public Personne(String name, String surname, int healthID, Adress adress) {
 		super();
 		this.name = name;
 		this.surname = surname;
 		this.healthID = healthID;
+		this.adress = adress;
 	}
 
 }
