@@ -7,25 +7,27 @@ package POO.tpGestionSalaires;
  * @author formation
  *
  */
-public class personalContactDetails {
+public class PersonalContactDetails {
 
 	/**
 	 * @param args
 	 */
 	
-	private int phoneNumber;
-	@Override
-	public String toString() {
-		return "personalContactDetails [phoneNumber=" + phoneNumber + ", mailAdress=" + mailAdress + "]";
-	}
+	private long phoneNumber;
+	
 	private String mailAdress;
 	/**
 	 * @param phoneNumber
 	 * @param mailAdress
 	 */
-	public personalContactDetails(int phoneNumber, String mailAdress) {
+	public PersonalContactDetails(long phoneNumber, String mailAdress) {
 		super();
 		this.phoneNumber = phoneNumber;
 		this.mailAdress = mailAdress;
+	}
+	
+	@Override
+	public String toString() {
+		return "personalContactDetails [phoneNumber=" + phoneNumber + ", mailAdress=" + mailAdress + "]";
 	}
 }
