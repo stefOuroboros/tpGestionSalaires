@@ -14,6 +14,10 @@ public class personalContactDetails {
 	 */
 	
 	private int phoneNumber;
+	@Override
+	public String toString() {
+		return "personalContactDetails [phoneNumber=" + phoneNumber + ", mailAdress=" + mailAdress + "]";
+	}
 	private String mailAdress;
 	/**
 	 * @param phoneNumber

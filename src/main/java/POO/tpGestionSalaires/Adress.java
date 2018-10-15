@@ -26,6 +26,11 @@ public class Adress {
 		this.postalCode = postalCode;
 		this.city = city;
 	}
+	@Override
+	public String toString() {
+		return ", habitant " + streetNumber + " rue " + street + ", " + postalCode + ", "
+				+ city;
+	}
 	
 	/**
 	 * @param args
