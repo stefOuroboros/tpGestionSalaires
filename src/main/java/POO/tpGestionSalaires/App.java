@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args )
     {
     	Adress rogerAdress = new Adress(55, "Crossroad", 34080, "Montpellier");
-    	personnalContactDetail rogerPCD = new personnalContactDetail(0652648432L, "roger.rabbit@gmail.com")
+    	PersonalContactDetails rogerPCD = new PersonalContactDetails(0652648432L, "roger.rabbit@gmail.com")
     	Senior Roger = new Senior("Rabbit", "Roger", 170033432285401L, 11111, rogerAdress);
         System.out.println(Roger);
         
