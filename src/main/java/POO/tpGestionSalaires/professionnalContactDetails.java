@@ -10,18 +10,17 @@ package POO.tpGestionSalaires;
 public class professionnalContactDetails extends personalContactDetails {
 
 	/**
-	 * 
+	 * @param phoneNumber
+	 * @param mailAdress
 	 */
-	public professionnalContactDetails() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	private String service;
+	private Adress buisnessAdress;
+	
+	public professionnalContactDetails(int phoneNumber, String mailAdress, String service, Adress buisnessAdress) {
+		super(phoneNumber, mailAdress);
+		this.service = service;
+		this.buisnessAdress = buisnessAdress;
 	}
 
 }

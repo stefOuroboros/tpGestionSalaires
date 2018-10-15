@@ -12,9 +12,16 @@ public class personalContactDetails {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	private int phoneNumber;
+	private String mailAdress;
+	/**
+	 * @param phoneNumber
+	 * @param mailAdress
+	 */
+	public personalContactDetails(int phoneNumber, String mailAdress) {
+		super();
+		this.phoneNumber = phoneNumber;
+		this.mailAdress = mailAdress;
 	}
-
 }
